@@ -1,0 +1,20 @@
+*** Variables ***
+${BOOK_FLIGHT_BUTTON}    xpath=(//button[text()='Book'])[1]
+${REVIEW_DETAILS_CARD}    xpath=(//div[contains(@class, 'overflow-hidden shadow-card')])[3]
+#${CANCELLATION_SECTION}    xpath=//section[@id="fare-options-cards-section"]
+${FREE_CANCELLATION_BUTTON}    xpath=//label[@for='Free Cancellation-radio']
+${TRAVELLER_DETAILS_SECTION}    xpath=//div[@id="adult1"]
+${TITLE_FIELD}    xpath=(//div[@id='adult1']//input[@readonly])[1]
+${TITLE}    xpath=//p[text()='Mr']
+${FIRST_NAME_FIELD}    xpath=(//div[@id='adult1']/descendant::input)[2]
+${LAST_NAME_FIELD}    xpath=(//div[@id='adult1']/descendant::input)[3]
+${CONTACT_DETAILS_SECTION}    xpath=//div[@data-testid="contactDetails"]
+${EMAIL_FIELD}    xpath=(//div[@data-testid="contactDetails"]/descendant::input)[3]
+${CONTINUE_BUTTON}    xpath=//button[text()='Continue']
+#${REVIEW_DETAILS_SECTION}    xpath=(//div[contains(@class, 'overflow-y-scroll')])[4]
+${CONFIRM_BUTTON}    xpath=//button[contains(.,'Confirm')]
+${ADD_ON_SECTION}    xpath=//div[contains(@class,'overflow-scroll')]
+${SKIP_TO_PAYMENT_BUTTON}    xpath=//button[text()='Skip to Payment']
+${FARE_SUMMARY}    xpath=//h4[text()='Fare Summary']
+
+
